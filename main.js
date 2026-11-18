@@ -1,4 +1,3 @@
-// ?https://dummyjson.com/docs/products productlari çəkin api-dən, ekranda kart dizaynı ilə göstərin. kart dizaynlarını bootstrapdan də götürə bilərsiz özünüz də yaza bilərsiz. Əsas odu şəkil, ad, description, price və category hissəsi olsun
 const box = document.querySelector(".box");
 fetch('https://dummyjson.com/products')
     .then(res => res.json())
